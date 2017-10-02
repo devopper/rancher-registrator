@@ -1,3 +1,4 @@
+ST
 ### Introduction
 The aim of this project is to achieve a third party registration in consul for every containers deployed through rancher. Since the release of Rancher v1.2.0 and its migration to the CNI framework, registrator isn't able to see containers port mappings anymore.
 
@@ -29,7 +30,7 @@ It also needs to be mapped on the docker.sock file of the host :
 You can set 2 environment variables :
 
  - SVC_PREFIX is used to prefix the service name into consul (for testing purpose)
- - LOCAL_CONSUL_AGENT defaults to "http://localhost:8500" and it can be changed if necessary.
+ - CONSUL_HOST defaults to "http://localhost:8500" and it can be changed if necessary.
 
 ### Labels
 
