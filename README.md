@@ -1,4 +1,3 @@
-ST
 ### Introduction
 The aim of this project is to achieve a third party registration in consul for every containers deployed through rancher. Since the release of Rancher v1.2.0 and its migration to the CNI framework, registrator isn't able to see containers port mappings anymore.
 
